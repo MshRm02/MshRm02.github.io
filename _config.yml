@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   Stronka, na którą wrzucę trochę informacji o tym jak wygląda sposób rozwoju oprogramowania GitHub Flow
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://mshrm02.github.io/'
+url: 'https://mshrm02.github.io/home'
 
 github:
   username: MshRm02             # change to your github username
