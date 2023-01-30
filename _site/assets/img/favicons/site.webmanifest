@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive, and powerful Jekyll theme for presenting professional writing.",
+  "name": "GitHub Flow",
+  "short_name": "GitHub Flow",
+  "description": "Stronka, na którą wrzucę trochę informacji o tym jak wygląda sposób rozwoju oprogramowania GitHub Flow",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",
