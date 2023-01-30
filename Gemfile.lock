@@ -11,11 +11,12 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
-    google-protobuf (3.21.12-x64-mingw-ucrt)
-    google-protobuf (3.21.12-x86_64-linux)
+    google-protobuf (3.21.12)
     html-proofer (3.19.4)
       addressable (~> 2.3)
       mercenary (~> 0.3)
@@ -72,9 +73,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.14.0-x64-mingw-ucrt)
-      racc (~> 1.4)
-    nokogiri (1.14.0-x86_64-linux)
+    mini_portile2 (2.8.1)
+    nokogiri (1.14.0)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     parallel (1.22.1)
     pathutil (0.16.2)
@@ -88,7 +89,13 @@ GEM
     rexml (3.2.5)
     rouge (4.0.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.57.1-arm64-darwin)
+      google-protobuf (~> 3.21)
     sass-embedded (1.57.1-x64-mingw-ucrt)
+      google-protobuf (~> 3.21)
+    sass-embedded (1.57.1-x64-mingw32)
+      google-protobuf (~> 3.21)
+    sass-embedded (1.57.1-x86_64-darwin)
       google-protobuf (~> 3.21)
     sass-embedded (1.57.1-x86_64-linux-gnu)
       google-protobuf (~> 3.21)
@@ -106,12 +113,11 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  universal-darwin-22
+  x64-mingw-ucrt
   x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
-  fastlane
   html-proofer (~> 3.18)
   http_parser.rb (~> 0.6.0)
   jekyll-theme-chirpy (~> 5.5, >= 5.5.1)
