@@ -1,8 +1,6 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 2
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+To jest stronka, na którą wrzucę trochę contentu o tym jak wygląda GitHub Flow z przykładami. Mam nadzieję, że znajdziesz tu coś dla siebie :)

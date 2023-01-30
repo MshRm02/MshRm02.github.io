@@ -11,11 +11,9 @@ const resource = [
     '/404.html',
 
     
-        '/categories/',
+        '/home/',
     
-        '/tags/',
-    
-        '/archives/',
+        '/flow/',
     
         '/about/',
     
