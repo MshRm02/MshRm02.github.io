@@ -106,10 +106,12 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  x64-mingw-ucrt
+  universal-darwin-22
+  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
+  fastlane
   html-proofer (~> 3.18)
   http_parser.rb (~> 0.6.0)
   jekyll-theme-chirpy (~> 5.5, >= 5.5.1)
@@ -119,14 +121,3 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.4.5
-
-...
-  unit-test:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0'
-        bundler-cache: true
-...
